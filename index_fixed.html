@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Transform Your Child's Learning | Easy Cheetah Workshop</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYRQZ3BH99"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WYRQZ3BH99');
+  </script>
+  <meta name="description" content="Your bright child doesn't need more tutoring. They need to learn HOW to learn. Transform your struggling student into an academic superstar in just one weekend.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+        /* CSS Variables for consistent theming */
+        :root {
+            --navy: #1C2C54;
+            --navy-dark: #0F1A2E;
+            --gold: #D9A441;
+            --orange: #E78B3A;
+            --green: #3BAE72;
+            --cream: #F5E5C0;
+            --light-gray: #F9FAFB;
+            --text-dark: #2B2B2B;
+            --text-light: #6B7280;
+            --white: #FFFFFF;
+            --spacing-unit: 8px;
+        }
+        
+        /* smooth anchor jump + account for sticky header */
+        html { scroll-behavior: smooth; }
+      #investment {
+            scroll-margin-top: 80px; /* Use the height of your fixed header (urgency-banner + hero/nav) */
+        }
+
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Typography System */
+        body {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.2;
+        }
+        
+        h1 { font-size: clamp(48px, 8vw, 64px); font-weight: 700; }
+        h2 { font-size: clamp(36px, 6vw, 48px); font-weight: 600; }
+        h3 { font-size: clamp(24px, 4vw, 32px); font-weight: 500; }
+        p  { font-size: 18px; line-height: 1.8; }
+        
+        /* Animations */
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05);} }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, #2A3F6B 50%, var(--navy-dark) 100%);
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
+            color: white; padding: 120px 0 100px; position: relative; overflow: hidden;
+        }
+        .hero::before { content: ''; position: absolute; inset: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(217,164,65,0.1)" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom; background-size: cover; opacity: 0.3; }
+        .hero-content { position: relative; z-index: 2; text-align: center; animation: fadeInUp 1s ease; }
+        .hero h1 { color: var(--gold); margin-bottom: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        .hero .subheadline { font-size: 20px; font-weight: 500; margin-bottom: 48px; color: var(--cream); max-width: 800px; margin-left: auto; margin-right: auto; opacity: 0; animation: fadeInUp 1s ease 0.3s forwards; }
+        
+        .cta-button { display: inline-block; background: linear-gradient(135deg, var(--orange), var(--gold)); color: white; padding: 20px 48px; font-size: 18px; font-weight: 600; text-decoration: none; border-radius: 50px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 4px 15px rgba(231, 139, 58, 0.3); position: relative; overflow: hidden; opacity: 0; animation: fadeInUp 1s ease 0.6s forwards; }
+        .cta-button::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s; }
+        .cta-button:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 8px 25px rgba(231, 139, 58, 0.4); }
+        .cta-button:hover::before { left: 100%; }
+        
+        .timeline-section { padding: 100px 0; background: var(--light-gray); }
+        .timeline-container { max-width: 1000px; margin: 0 auto; position: relative; }
+        .timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--gold), var(--green)); transform: translateX(-50%); }
+        .timeline-item { display: flex; align-items: center; margin-bottom: 80px; opacity: 0; animation: fadeInUp 0.8s ease forwards; }
+        .timeline-item:nth-child(even) { flex-direction: row-reverse; }
+        .timeline-content { flex: 1; padding: 32px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin: 0 40px; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .timeline-content:hover { transform: translateY(-5px); box-shadow: 0 8px 30px rgba(0,0,0,0.12); }
+        .timeline-icon { width: 60px; height: 60px; background: linear-gradient(135deg, var(--gold), var(--orange)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; color: white; box-shadow: 0 4px 15px rgba(217, 164, 65, 0.3); z-index: 2; }
+        
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px; padding: 80px 0; }
+        .benefit-card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; }
+        .benefit-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--gold), var(--orange)); transform: scaleX(0); transition: transform 0.3s ease; }
+        .benefit-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.15); }
+        .benefit-card:hover::before { transform: scaleX(1); }
+        .benefit-icon { width: 80px; height: 80px; background: linear-gradient(135deg, var(--cream), var(--gold)); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 36px; margin-bottom: 24px; transition: transform 0.3s ease; }
+        .benefit-card:hover .benefit-icon { transform: rotate(5deg) scale(1.1); }
+        .benefit-card h3 { color: var(--navy); margin-bottom: 16px; font-weight: 600; }
+        .benefit-card p { color: var(--text-light); font-size: 16px; }
+        
+        .testimonial-carousel { padding: 100px 0; background: var(--cream); position: relative; }
+        .carousel-container { max-width: 1000px; margin: 0 auto; position: relative; overflow: hidden; }
+        .testimonial-content { background: white; padding: 48px; border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); position: relative; }
+        .testimonial-content::before { content: '"'; position: absolute; top: -20px; left: 40px; font-size: 120px; color: var(--gold); opacity: 0.2; font-family: 'Playfair Display', serif; }
+        .star-rating { display: flex; gap: 4px; margin-bottom: 20px; }
+        .star { color: var(--gold); font-size: 24px; }
+        .testimonial-text { font-size: 20px; line-height: 1.6; color: var(--text-dark); margin-bottom: 24px; font-style: italic; }
+        .testimonial-author { display: flex; align-items: center; gap: 16px; }
+        .author-avatar { width: 60px; height: 60px; background: linear-gradient(135deg, var(--gold), var(--orange)); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 24px; }
+        .author-info h4 { font-family: 'Inter', sans-serif; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+        .grade-badge { display: inline-block; background: var(--green); color: white; padding: 4px 12px; border-radius: 20px; font-size: 14px; font-weight: 600; }
+        
+        .stats-section { padding: 100px 0; background: linear-gradient(135deg, var(--navy), var(--navy-dark)); color: white; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 48px; max-width: 1000px; margin: 0 auto; }
+        .stat-card { text-align: center; opacity: 0; animation: fadeInUp 0.8s ease forwards; }
+        .stat-number { font-size: 56px; font-weight: 700; color: var(--gold); font-family: 'Playfair Display', serif; margin-bottom: 8px; display: inline-block; }
+        .stat-label { font-size: 18px; color: var(--cream); font-weight: 500; }
+        
+        .pricing-section { padding: 100px 0; background: var(--light-gray); }
+        .pricing-comparison { max-width: 1000px; margin: 60px auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .pricing-card { background: white; border-radius: 24px; padding: 48px; position: relative; transition: all 0.3s ease; }
+        .pricing-card.featured { background: linear-gradient(135deg, var(--navy), #2A3F6B); color: white; transform: scale(1.05); box-shadow: 0 12px 40px rgba(28, 44, 84, 0.3); }
+        .pricing-card.featured::before { content: 'BEST VALUE'; position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); padding: 8px 24px; border-radius: 20px; font-weight: 600; font-size: 14px; }
+        .pricing-header h3 { font-size: 28px; margin-bottom: 16px; }
+        .pricing-card.featured h3 { color: var(--gold); }
+        .price-amount { font-size: 48px; font-weight: 700; color: var(--orange); margin: 24px 0; font-family: 'Playfair Display', serif; }
+        .pricing-card.featured .price-amount { color: var(--gold); }
+        .price-period { font-size: 18px; color: var(--text-light); font-weight: 400; }
+        .pricing-card.featured .price-period { color: var(--cream); }
+        .pricing-features { list-style: none; margin: 32px 0; }
+        .pricing-features li { padding: 12px 0; display: flex; align-items: center; gap: 12px; }
+        .pricing-features li::before { content: '✓'; width: 24px; height: 24px; background: var(--green); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; flex-shrink: 0; }
+        .pricing-card.featured .pricing-features li::before { background: var(--gold); color: var(--navy); }
+        
+        .savings-calculator { max-width: 600px; margin: 60px auto; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+        .calculator-display { background: linear-gradient(135deg, var(--cream), white); padding: 32px; border-radius: 16px; text-align: center; margin-bottom: 32px; }
+        .savings-amount { font-size: 48px; font-weight: 700; color: var(--green); font-family: 'Playfair Display', serif; }
+        .savings-label { color: var(--text-light); margin-top: 8px; }
+        
+        .urgency-banner { background: linear-gradient(135deg, var(--orange), var(--gold)); color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 20px rgba(231, 139, 58, 0.3); }
+        .urgency-content { display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap; }
+        .urgency-text { font-weight: 600; font-size: 18px; }
+        .spots-left { background: white; color: var(--orange); padding: 8px 20px; border-radius: 20px; font-weight: 700; animation: pulse 2s infinite; }
+        
+        .faq-section { padding: 100px 0; background: white; }
+        .faq-container { max-width: 800px; margin: 0 auto; }
+        .faq-item { margin-bottom: 16px; border-radius: 16px; overflow: hidden; background: var(--light-gray); transition: all 0.3s ease; }
+        .faq-item.active { background: white; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+        .faq-question { padding: 24px 32px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; color: var(--navy); transition: all 0.3s ease; }
+        .faq-item.active .faq-question { color: var(--gold); }
+        .faq-icon { width: 32px; height: 32px; background: var(--gold); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s ease; }
+        .faq-item.active .faq-icon { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+        .faq-item.active .faq-answer { max-height: 500px; }
+        .faq-answer-content { padding: 0 32px 24px; color: var(--text-light); }
+        
+        .footer { background: var(--navy-dark); color: white; padding: 60px 0 40px; }
+        .footer-content { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 48px; padding: 0 24px; }
+        .footer-section h3 { color: var(--gold); margin-bottom: 20px; font-size: 20px; }
+        .footer-section p, .footer-section li { color: var(--cream); margin-bottom: 12px; }
+        .footer-section ul { list-style: none; }
+        .footer-bottom { text-align: center; margin-top: 40px; padding-top: 40px; border-top: 1px solid rgba(217, 164, 65, 0.2); color: var(--cream); }
+
+        .media-logos { display: flex; justify-content: center; align-items: center; gap: 40px; padding: 40px 0; flex-wrap: wrap; opacity: 0.7; }
+        .media-logo { font-weight: 600; color: var(--text-light); font-size: 18px; }
+
+        /* =========================
+           NEW: Video Testimonials
+           ========================= */
+        .video-testimonials { padding: 100px 0; background: var(--light-gray); }
+        .video-headline { text-align:center; color: var(--navy); margin-bottom: 12px; }
+        .video-sub { text-align:center; color: var(--text-light); margin-bottom: 40px; }
+
+        .video-stage {
+            position: relative;
+            max-width: 1100px;
+            margin: 0 auto;
+            height: clamp(380px, 55vw, 560px);
+        }
+
+        .video-rail {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+        }
+
+        .video-card {
+            position: absolute;
+            width: clamp(190px, 20vw, 260px);
+            aspect-ratio: 9 / 16;
+            border-radius: 28px;
+            overflow: hidden;
+            background: #000;
+            box-shadow: 0 20px 60px rgba(0,0,0,.18);
+            transition: transform .6s ease, opacity .6s ease, box-shadow .4s ease, width .4s ease, z-index .4s ease;
+            cursor: pointer;
+        }
+        .video-card.is-center {
+            width: clamp(250px, 30vw, 360px);
+            z-index: 3;
+            box-shadow: 0 30px 80px rgba(0,0,0,.25);
+        }
+        .video-card.is-left  { z-index: 2; }
+        .video-card.is-right { z-index: 2; }
+        .video-card.is-hidden { opacity: 0; pointer-events: none; }
+
+        /* positions relative to center */
+        .video-card { transform: translateX(calc(var(--x-offset, 0) * 38%)) scale(var(--scale, .88)); }
+        .video-card.is-center { transform: translateX(0) scale(1); }
+        .video-card.is-left  { --x-offset: -1; }
+        .video-card.is-right { --x-offset: 1; }
+
+        /* video element fills container */
+        .video-card video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .video-tag {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -44px;
+            background: var(--white);
+            color: var(--navy);
+            border: 1px solid rgba(28,44,84,.1);
+            border-radius: 999px;
+            padding: 8px 14px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 8px 20px rgba(0,0,0,.08);
+            white-space: nowrap;
+        }
+
+        .video-tag-spacer { height: 44px; }
+
+        .video-card.is-center:not(.is-playing)::after {
+            content: '▶';
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            font-size: clamp(28px, 4vw, 44px);
+            color: rgba(255,255,255,.95);
+            text-shadow: 0 4px 14px rgba(0,0,0,.5);
+            pointer-events: none;
+        }
+
+        @media (max-width: 720px) {
+            .video-card { width: clamp(220px, 64vw, 300px); }
+            .video-card.is-left,
+            .video-card.is-right { opacity: .0001; pointer-events: none; }
+            .video-card { transform: translateX(0) scale(.92); }
+            .video-card.is-center { transform: translateX(0) scale(1); }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 36px; }
+            h2 { font-size: 28px; }
+            h3 { font-size: 22px; }
+            .benefits-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .stat-number { font-size: 42px; }
+            .price-amount { font-size: 36px; }
+        }
+
+        /* =========================
+           NEW: Brand badge in hero
+           ========================= */
+        .brand-badge{
+            display:inline-flex; align-items:center; gap:10px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(217,164,65,0.4);
+            padding: 10px 14px; border-radius: 999px;
+            backdrop-filter: blur(4px);
+            margin-bottom: 16px;
+        }
+        .brand-badge img{ height:28px; width:auto; border-radius:6px; display:block; }
+        .brand-badge span{ color: var(--cream); font-weight:600; letter-spacing:.2px; }
+
+        /* =========================
+           NEW: Carousels (logos)
+           ========================= */
+        .logo-carousel{
+            position: relative; overflow: hidden; padding: 16px 0;
+        }
+        .logo-track{
+            display:flex; align-items:center; gap:48px; width: max-content;
+            animation: scrollLeft 28s linear infinite;
+        }
+        .logo-track:hover{ animation-play-state: paused; }
+        .logo-card img{
+            height: 52px; width:auto; object-fit: contain;
+            filter: grayscale(100%) contrast(.9) opacity(.85);
+            transition: filter .25s ease, transform .25s ease;
+        }
+        .logo-card img:hover{ filter: none; opacity: 1; transform: translateY(-2px); }
+        .logo-carousel::before, .logo-carousel::after{
+            content:""; position:absolute; top:0; bottom:0; width:80px; pointer-events:none;
+        }
+        .logo-carousel::before{ left:0; background: linear-gradient(90deg, rgba(249,250,251,1), rgba(249,250,251,0)); }
+        .logo-carousel::after{ right:0; background: linear-gradient(-90deg, rgba(249,250,251,1), rgba(249,250,251,0)); }
+        @keyframes scrollLeft{ from{ transform: translateX(0); } to{ transform: translateX(-50%); } }
+
+        .on-white .logo-carousel::before{ background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0)); }
+        .on-white .logo-carousel::after{ background: linear-gradient(-90deg, rgba(255,255,255,1), rgba(255,255,255,0)); }
+
+        /* =========================
+           NEW: Paul section with photo
+           ========================= */
+        .paul-section{
+            display:grid; grid-template-columns: 1fr 1.4fr; gap: 40px; align-items: center;
+        }
+        .paul-photo-card{
+            background: linear-gradient(135deg, var(--gold), var(--orange));
+            padding: 6px; border-radius: 28px; box-shadow: 0 12px 40px rgba(0,0,0,.12);
+            transform: rotate(-1deg);
+        }
+        .paul-photo-card img{ display:block; width:100%; height:auto; border-radius: 22px; }
+        .paul-copy h2{ margin-bottom: 8px; }
+        .paul-copy p{ color: var(--text-light); margin-bottom: 8px; }
+
+        /* 2x2 credibility grid */
+        .cred-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 32px; padding-top: 20px; }
+        @media (max-width: 900px){
+            .paul-section{ grid-template-columns: 1fr; }
+            .cred-grid{ grid-template-columns: 1fr; }
+        }
+  .testimonial-track{
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .testimonial-track .testimonial-content{
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+  }
+  @media (min-width: 900px){
+    .testimonial-track .testimonial-content{
+      flex-basis: 48%; /* shows ~2 at a time on desktop */
+    }
+  }
+  </style>
+  <style>
+  /* Center items inside each grid cell and make cards uniform */
+  .stats-section .stats-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;   /* centers each card horizontally */
+    align-items: stretch;    /* equal height rows */
+  }
+  .stats-section .stat-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* centers number + label */
+    justify-content: center; /* vertical centering inside card */
+    gap: 6px;
+    text-align: center;
+    opacity: 0;              /* will fade in via JS */
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+  }
+  /* Number on its own line for consistent alignment */
+  .stats-section .stat-number{
+    display: block;          /* was inline-block */
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--gold);
+    font-family: 'Playfair Display', serif;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+  .stats-section .stat-label{
+    font-size: 18px;
+    color: var(--cream);
+    font-weight: 500;
+  }
+
+  @media (min-width: 900px){
+    .stats-section .stats-grid{
+      grid-template-columns: repeat(4, minmax(0, 1fr)); /* stable 4-up on desktop */
+    }
+  }
+
+  /* === Mobile overflow & safe-area fixes (added) === */
+  html { width: 100%; overflow-x: hidden; }
+  section, header, footer, .hero { overflow-x: hidden; }
+
+  /* Safe areas for notched devices */
+  .urgency-banner,
+  .hero,
+  section,
+  .footer {
+  padding-left: max(0px, env(safe-area-inset-left));
+  padding-right: max(0px, env(safe-area-inset-right));
+  }
+
+  /* Full-bleed utility */
+  .full-bleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  }
+
+  /* Responsive media */
+  img, video { max-width: 100%; height: auto; display: block; }
+
+  /* Carousels: prevent overflow and smooth scroll */
+  .logo-carousel, .testimonial-carousel { overflow: hidden; }
+  .logo-track { will-change: transform; }
+  .testimonial-track { -webkit-overflow-scrolling: touch; }
+
+  /* Grids: refine minimum widths */
+  .benefits-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .cred-grid { gap: 24px; }
+
+  /* Typography: gentler clamps for small devices */
+  h1 { font-size: clamp(36px, 7vw, 56px); }
+  h2 { font-size: clamp(26px, 5.5vw, 40px); }
+  h3 { font-size: clamp(20px, 4.5vw, 28px); }
+
+  /* --- Breakpoints --- */
+  @media (max-width: 720px) {
+  .container { max-width: none; width: 100%; padding-left: 16px; padding-right: 16px; }
+  .pricing-comparison { grid-template-columns: 1fr; gap: 24px; }
+  .urgency-content { flex-direction: column; align-items: stretch; text-align: center; gap: 12px; }
+  .cta-button { display: block; width: 100%; text-align: center; }
+  .logo-track { gap: 28px; }
+  .logo-card img { height: 40px; }
+  .testimonial-track .testimonial-content { flex: 0 0 88%; min-width: 280px; }
+  .video-card { width: clamp(170px, 38vw, 220px); }
+  }
+
+  @media (max-width: 640px) {
+  .benefits-grid { grid-template-columns: 1fr; gap: 20px; }
+  .cred-grid { grid-template-columns: 1fr; }
+  .logo-track { gap: 22px; }
+  .logo-carousel::before, .logo-carousel::after { width: 40px; }
+  .testimonial-content { padding: 28px; }
+  }
+
+  @media (max-width: 600px) {
+  .urgency-text { font-size: 16px; }
+  .spots-left { font-size: 14px; padding: 6px 14px; }
+  .video-stage { height: clamp(340px, 60vw, 500px); }
+  .video-card { border-radius: 22px; }
+  }
+
+  @media (max-width: 480px) {
+  .container { padding-left: 12px; padding-right: 12px; }
+  .logo-card img { height: 34px; }
+  .testimonial-content { padding: 22px; }
+  .cta-row .cta-button { margin-bottom: 10px; }
+  }
+  </style>
+</head>
+<body>
+  <div class="urgency-banner">
+    <div class="urgency-content">
+      <span class="urgency-text">🔥 Limited Time Offer</span> <span class="spots-left">Only 8 Spots Left!</span>
+    </div>
+  </div>
+  <section class="hero full-bleed">
+    <div class="container">
+      <div class="brand-badge">
+        <img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68bfd9dbdb3e009bc46ef447.png" alt="Easy Cheetah logo"> <span>Easy Cheetah</span>
+      </div>
+      <div class="hero-content">
+        <h1>Your Bright Child Doesn't Need More Tutoring. They Need to Learn HOW to Learn.</h1>
+        <p class="subheadline">Transform your struggling student into an academic superstar in just one weekend-without adding more study hours, expensive tutors, or homework battles.</p><a href="#investment" class="cta-button" id="cta">Transform My Child's Learning</a>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 36px 0; background: var(--light-gray);">
+    <div class="container on-white">
+      <h3 style="text-align:center; color: var(--navy); margin-bottom: 8px;">Trusted by Leading Institutions</h3>
+      <div class="logo-carousel">
+        <div class="logo-track">
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0644c934957825783ea.png" alt="Institution 1"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0648da173e44a42e249.png" alt="Institution 2"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0648da1730ee942e23f.png" alt="Institution 3"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0644c934902385783e9.png" alt="Institution 4"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f783958d2a2c0.png" alt="Institution 5"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0643f9300d47a98e6a3.png" alt="Institution 6"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f7886c0d2a2c1.png" alt="Institution 7"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0642c55c3b395ad2cd6.png" alt="Institution 8"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f780f0ad2a2bf.png" alt="Institution 9"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0644c934957825783ea.png" alt="Institution 1 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0648da173e44a42e249.png" alt="Institution 2 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0648da1730ee942e23f.png" alt="Institution 3 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0644c934902385783e9.png" alt="Institution 4 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f783958d2a2c0.png" alt="Institution 5 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0643f9300d47a98e6a3.png" alt="Institution 6 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f7886c0d2a2c1.png" alt="Institution 7 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb0642c55c3b395ad2cd6.png" alt="Institution 8 duplicate"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f780f0ad2a2bf.png" alt="Institution 9 duplicate"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 90px 0; background: white;">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 24px;">If You've Ever Watched Your Child Break Down in Tears After Hours of Studying, You Need to Read This</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--text-light);">
+        <p>Does this sound familiar?</p>
+        <p>Your child sits at their desk for 3, 4, sometimes 6 hours trying to study. You watch them read the same page over and over. They make flashcards. They highlight everything. They try so hard.</p>
+        <p>But when test day comes? The grades don't reflect the effort.</p>
+        <p><strong>It's not just about the grades.</strong> It's watching your bright, capable child start to believe they're "stupid." It's the daily homework battles that turn your home into a war zone. It's the guilt you feel wondering if you're doing enough, if you should hire another tutor, if maybe there's something wrong with your child. It's the frustration of spending thousands on tutoring that doesn't seem to stick. It's the heartbreak of watching your child's confidence crumble a little more each day.</p>
+        <p><strong>You know your child is smart. So why isn't it clicking?</strong></p>
+        <p>Here's what most parents don't realize: <strong>Your child isn't struggling because they're not smart enough or not trying hard enough.</strong> They're struggling because <strong>no one has ever taught them HOW to learn.</strong></p>
+        <p>Think about it: We send our children to school to learn Math, Science, English, History... but when do they actually learn HOW to study? How to remember information? How to concentrate? How to read efficiently? <strong>Never.</strong></p>
+        <p>We just expect them to figure it out on their own. And when they can't, we throw more tutoring at them-which only teaches them WHAT to learn, not HOW to learn it. It's like trying to build a house without tools. No matter how hard you work, you're never going to get very far.</p>
+        <p><strong>That's where the Easy Cheetah Study Skills Workshop comes in.</strong></p>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 90px 0; background: var(--light-gray);">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy);">Introducing the Natural Learning Method: The Brain-Based Study System That Cuts Study Time in Half While Doubling Results</h2>
+      <div style="max-width: 1000px; margin: 24px auto 0; color: var(--text-light);">
+        <p>For the past 25 years, I've been teaching students something revolutionary: <strong>how to work WITH their brain, not against it.</strong></p>
+        <p>Traditional study methods-reading and re-reading, highlighting, making notes-often work <em>against</em> how the brain naturally processes information. Yet your child can remember movie lines, lyrics, and weekend stories with ease. <strong>Why?</strong> Because the brain is designed to learn through stories, emotions, connections, and patterns.</p>
+        <p>The Natural Learning Method teaches your child to harness these same psychological principles for their schoolwork-using their brain's natural tendencies instead of fighting them.</p>
+        <div class="benefits-grid" style="padding-top:32px;">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              ⏱️
+            </div>
+            <h3>Half the Time, Better Results</h3>
+            <p>Students who used to study 6 hours can study 3 and get <strong>better</strong> outcomes.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              🧠
+            </div>
+            <h3>Recall with Precision</h3>
+            <p>Techniques that make facts, dates, and formulas stick for months-without re-studying.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              📖
+            </div>
+            <h3>Read Faster, Understand More</h3>
+            <p>Triple reading speed while increasing comprehension-goodbye, re-reading the same page.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              💪
+            </div>
+            <h3>Confidence Rebuilt</h3>
+            <p>Students who thought they were "stupid" realize they're brilliant-they just needed the right tools.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="timeline-section">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--navy); margin-bottom: 80px;">The Transformation Journey</h2>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Day 1: Discovery</h3>
+            <p>Your child discovers their unique learning style and unlocks their brain's natural abilities.</p>
+          </div>
+          <div class="timeline-icon">
+            🧠
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Day 2: Mastery</h3>
+            <p>Master speed reading, memory techniques, and exam strategies that cut study time in half.</p>
+          </div>
+          <div class="timeline-icon">
+            ⚡
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Week 1-4: Implementation</h3>
+            <p>Watch as homework battles disappear and grades start climbing with our ongoing support.</p>
+          </div>
+          <div class="timeline-icon">
+            📈
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>3 Months: Transformation</h3>
+            <p>Your confident, self-directed learner achieves grades you both dreamed of.</p>
+          </div>
+          <div class="timeline-icon" style="background: linear-gradient(135deg, var(--green), var(--gold));">
+            🎯
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: white;">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--navy); margin-bottom: 60px;">What Your Child Will Master</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            📚
+          </div>
+          <h3>Speed Reading Mastery</h3>
+          <p>Triple reading speed while improving comprehension. Finish homework in half the time.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🧠
+          </div>
+          <h3>Photographic Memory</h3>
+          <p>Remember facts, dates, and formulas effortlessly. Never go blank during tests again.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🎯
+          </div>
+          <h3>Laser Focus</h3>
+          <p>Eliminate distractions and stay focused longer. Study effectively in less time.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            ✅
+          </div>
+          <h3>Exam Strategy</h3>
+          <p>Approach any exam with confidence. Maximize marks even when unsure.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            📝
+          </div>
+          <h3>Smart Note-Taking</h3>
+          <p>Create notes that make studying effortless. Organize information for easy retrieval.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            💪
+          </div>
+          <h3>Confidence Boost</h3>
+          <p>Overcome test anxiety. Build unshakeable belief in their abilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: var(--light-gray);">
+    <div class="container">
+      <div class="paul-section">
+        <div class="paul-photo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68c2b846b177ea383b4101c1.png" alt="Paul Tosio"></div>
+        <div class="paul-copy">
+          <h2 style="color: var(--navy); margin-bottom: 12px;">Why Parents Trust Paul Tosio to Transform Their Children's Academic Future</h2>
+          <p style="max-width: 900px; margin: 0 0 20px 0;">I'm Paul Tosio, with a Master's degree in Experimental Psychology from Oxford University, and 25 years of hands-on experience working with <strong>28,000+ students</strong> across <strong>400+ schools</strong> on <strong>6 continents</strong>. I've trained learners at the Oprah Winfrey Leadership Academy for Girls, top private schools across South Africa, and international schools worldwide. Featured on BBC, Radio 702, and Cape Talk, and trusted by leaders like Raymond Ackerman.</p>
+          <div class="cred-grid">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                🎓
+              </div>
+              <h3>Oxford-Trained Psychologist</h3>
+              <p>Evidence-based, brain-aligned methods-not fads or hacks.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                🌍
+              </div>
+              <h3>Global Track Record</h3>
+              <p>28,000+ students, 400+ schools, 6 continents-real results across contexts.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                🧩
+              </div>
+              <h3>Neurodiversity-Inclusive</h3>
+              <p>I have ADHD and design for ADHD, dyslexia, and diverse learning profiles.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                📺
+              </div>
+              <h3>As Featured On</h3>
+              <p>BBC • Radio 702 • Cape Talk • Oprah Winfrey Leadership Academy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stats-section">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--gold); margin-bottom: 60px;">Proven Results That Speak</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">
+            28, 000
+          </div>
+          <div class="stat-label">
+            Students Transformed
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            92%
+          </div>
+          <div class="stat-label">
+            Average Grade Improvement
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            50%
+          </div>
+          <div class="stat-label">
+            Less Study Time Needed
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            25
+          </div>
+          <div class="stat-label">
+            Years of Excellence
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial-carousel full-bleed" style="background: var(--cream);">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--navy); margin-bottom: 24px;">Success Stories From Real Families</h2>
+      <div class="carousel-container">
+        <div class="testimonial-track">
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Thank you for being THE BEST TEACHER (their words) my 3 kids have every had. They loved learning from you!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                MI
+              </div>
+              <div class="author-info">
+                <h4>Michelle</h4><span class="grade-badge">Mom of three</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Thank you for the lessons given to our kids. Amara received her Biology test results and passed with 100%."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                AM
+              </div>
+              <div class="author-info">
+                <h4>Amara's mom</h4><span class="grade-badge">Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Paul, you are WONDERFUL! Thank you for an AMAZING course. We can't keep him quiet, we're hearing every single detail. Thank you! This was a wonderful gift for for him."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                LM
+              </div>
+              <div class="author-info">
+                <h4>Lyn</h4><span class="grade-badge">Mother</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"The kids said this is the best assembly they ever had!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                HD
+              </div>
+              <div class="author-info">
+                <h4>Head of Department</h4><span class="grade-badge">SAFA Community School - Dubai</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"My son has just completed Paul's course and has raved about it"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                SI
+              </div>
+              <div class="author-info">
+                <h4>Sian</h4><span class="grade-badge">Parent & Dept. Head</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"I would like to thank you. My daughter received the highest results in the history of our country for the final exams of the International Baccalaureate"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                MT
+              </div>
+              <div class="author-info">
+                <h4>Mrs T</h4><span class="grade-badge">Parent</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"You won't regret it. Do your kids a favour and let them do this course. You won't regret it."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                RO
+              </div>
+              <div class="author-info">
+                <h4>Rowena</h4><span class="grade-badge">Parent & Dept. Head</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text"><strong>"7506 words a minute"</strong> - "I just timed myself reading 7506 words a minute sir!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                MA
+              </div>
+              <div class="author-info">
+                <h4>Matthew</h4><span class="grade-badge">After first afternoon training</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text"><strong>"I attained 97%"</strong> - "I had only one week to prepare for the exam, but using the speed reading and memory techniques I attained a 97%!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                DL
+              </div>
+              <div class="author-info">
+                <h4>D.L</h4><span class="grade-badge">Studying professional & single mother</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Since your courses, I have gone from somewhere around 40th in the grade to 8th last term. Thanks so much for all your help"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                MH
+              </div>
+              <div class="author-info">
+                <h4>Michaelhouse student</h4><span class="grade-badge">Student</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Mr Tosio is honestly the best in the game when it comes to teaching study methods. I would not have gotten top 1% without his methods. Highly recommend"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                NA
+              </div>
+              <div class="author-info">
+                <h4>Namisi</h4><span class="grade-badge">Student</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"I was a student who focused on the main topics and things I wanted to learn and that wouldn't get me fantastic grades. Paul taught me that is was possible to remember lots of information"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                HA
+              </div>
+              <div class="author-info">
+                <h4>Harry</h4><span class="grade-badge">GCSE Student</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"hello sir, thought you might be interested to hear this. I managed to get 99% in my report for Accounting using the filming method and 3 other 90's for Science, Math and IT. thank you"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                DA
+              </div>
+              <div class="author-info">
+                <h4>Daniel</h4><span class="grade-badge">Student</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <div class="star-rating">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-text">"Thank you for the various strategies that you gave us to comprehend a lot of information"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                MB
+              </div>
+              <div class="author-info">
+                <h4>Mbali</h4><span class="grade-badge">Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: white;">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 24px;">This Workshop Is Perfect for Your Child If...</h2>
+      <div style="max-width: 900px; margin: 0 auto;">
+        <ul class="pricing-features">
+          <li>They're bright and capable but their grades don't reflect it</li>
+          <li>They study for hours but struggle to remember what they've learned</li>
+          <li>Homework time has become a daily battle in your home</li>
+          <li>They've started saying things like "I'm stupid" or "I can't do this"</li>
+          <li>You've tried tutoring but nothing seems to stick long-term</li>
+          <li>They have ADHD, dyslexia, or other learning differences</li>
+          <li>They're in grades 7-12 and need to build strong study foundations</li>
+          <li>You're tired of watching your child's confidence deteriorate</li>
+          <li>You want a ONE-TIME solution, not ongoing monthly tutoring costs</li>
+          <li>You're ready to invest in skills that will serve them for LIFE</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 60px 0; background: var(--light-gray);">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 16px;">This Workshop Is NOT for You If...</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--text-light);">
+        <p>✗ You're looking for subject-specific tutoring (we teach HOW to learn, not WHAT to learn)</p>
+        <p>✗ You want a magic pill with zero effort from your child</p>
+        <p>✗ You're not willing to give your child one weekend to transform their academic future</p>
+        <p>✗ You're happy with the status quo and don't see a need for change</p>
+        <p>✗ You expect overnight miracles without practice and implementation</p>
+        <p><strong>Honest truth:</strong> This workshop provides powerful tools, but your child needs to <em>use</em> them. If they're willing to learn a better, easier, and more effective way-this will change everything.</p>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: white;">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 16px;">Everything Your Child Needs to Become a Learning Machine</h2>
+      <div class="benefits-grid" style="padding-top: 20px;">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            📚
+          </div>
+          <h3>Speed Reading Mastery</h3>
+          <p>Triple reading speed with better comprehension. Never fall behind again.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🧠
+          </div>
+          <h3>Photographic Memory Techniques</h3>
+          <p>Facts, dates, formulas, vocab-remembered effortlessly and retained for months.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🎯
+          </div>
+          <h3>Laser-Focus Concentration</h3>
+          <p>Eliminate distractions and enjoy deep, efficient study sessions.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            ✅
+          </div>
+          <h3>Exam Strategy & Test-Taking</h3>
+          <p>Manage time, approach questions strategically, and maximize marks.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            📝
+          </div>
+          <h3>Note-Taking Systems</h3>
+          <p>Capture key ideas without rewriting textbooks. Notes that make revision effortless.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            💪
+          </div>
+          <h3>Confidence & Mindset</h3>
+          <p>Beat anxiety, build resilience, and develop a growth mindset for life.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            👥
+          </div>
+          <h3>Ongoing Community Support</h3>
+          <p>Access to parent & student community, guidance, and resources after the workshop.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🎓
+          </div>
+          <h3>Lifetime Skills</h3>
+          <p>Skills that pay dividends from high school to university to career.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="on-white" style="padding: 60px 0; background: white;">
+    <div class="container">
+      <p style="text-align: center; color: var(--text-light); margin-bottom: 18px; font-weight: 500;">As Featured On</p>
+      <div class="logo-carousel">
+        <div class="logo-track">
+          <div class="logo-card"><img src="https://logos-world.net/wp-content/uploads/2022/01/BBC-Emblem.png" alt="BBC"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/688233be58285797a4923661.png" alt="702"></div>
+          <div class="logo-card"><img src="https://itouch.co.za/img/Cape%20Talk.png" alt="Cape Talk"></div>
+          <div class="logo-card"><img src="https://yt3.googleusercontent.com/7vLeXOyezSFX343PNxQgz0mPEiqsFUxi1xIhLw28oJ_BR8tspDIipB5uyv8fDV412TEncf_G=s900-c-k-c0x00ffffff-no-rj" alt="YouTube channel"></div>
+          <div class="logo-card"><img src="https://www.tambofoundation.org.za/wp-content/uploads/2020/01/safm-logo-highest-resolution1-scaled.jpg" alt="SAfm"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/6882349b0df8efa80999252a.png" alt="Oprah Winfrey Leadership Academy"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68823553793105179837c840.png" alt="Cape Talk (alt)"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f7886c0d2a2c1.png" alt="Easy Cheetah Mark"></div>
+          <div class="logo-card"><img src="https://logos-world.net/wp-content/uploads/2022/01/BBC-Emblem.png" alt="BBC"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/688233be58285797a4923661.png" alt="702"></div>
+          <div class="logo-card"><img src="https://itouch.co.za/img/Cape%20Talk.png" alt="Cape Talk"></div>
+          <div class="logo-card"><img src="https://yt3.googleusercontent.com/7vLeXOyezSFX343PNxQgz0mPEiqsFUxi1xIhLw28oJ_BR8tspDIipB5uyv8fDV412TEncf_G=s900-c-k-c0x00ffffff-no-rj" alt="YouTube channel"></div>
+          <div class="logo-card"><img src="https://www.tambofoundation.org.za/wp-content/uploads/2020/01/safm-logo-highest-resolution1-scaled.jpg" alt="SAfm"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/6882349b0df8efa80999252a.png" alt="Oprah Winfrey Leadership Academy"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68823553793105179837c840.png" alt="Cape Talk (alt)"></div>
+          <div class="logo-card"><img src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68dbb064380f7886c0d2a2c1.png" alt="Easy Cheetah Mark"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pricing-section" id="investment">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--navy); margin-bottom: 20px;">Investment in Your Child's Future</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--text-light); font-size: 20px; text-align:center;">
+        <p><strong>The Real Cost of Doing Nothing</strong></p>
+        <p>The average parent spends <strong>R6,000–R12,000+ per year</strong> on tutoring-year after year. When tutoring stops, results often fade because students never learned <em>how</em> to learn independently.</p>
+        <p><strong>Easy Cheetah Study Skills Workshop: R3,497 once.</strong> Less than six months of tutoring-yet the skills last a lifetime.</p>
+        <p>What's at stake? Your child's confidence, academic opportunities, family harmony, and thousands in ongoing costs.</p>
+      </div>
+      <div class="pricing-comparison">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Traditional Tutoring</h3>
+            <p style="color: var(--text-light);">What most parents try</p>
+          </div>
+          <div class="price-amount">
+            R12,000+
+          </div><span class="price-period">Per year, every year</span>
+          <ul class="pricing-features">
+            <li>Temporary subject help</li>
+            <li>Dependency on tutor</li>
+            <li>No study skills taught</li>
+            <li>Ongoing costs forever</li>
+          </ul>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-header">
+            <h3>Easy Cheetah Workshop</h3>
+            <p>Lifetime transformation</p>
+          </div>
+          <div class="price-amount">
+            R3,497
+          </div><span class="price-period">One-time investment</span>
+          <ul class="pricing-features">
+            <li>Lifetime study skills</li>
+            <li>Independent learning</li>
+            <li>Works for all subjects</li>
+            <li>30-day guarantee</li>
+          </ul><a href="inboundredirect.easycheetah.com" class="cta-button" style="display:block; text-align:center;">Invest in My Child's Future Now</a>
+        </div>
+      </div>
+      <div class="savings-calculator">
+        <h3 style="text-align: center; color: var(--navy); margin-bottom: 24px;">Your 5-Year Savings</h3>
+        <div class="calculator-display">
+          <div class="savings-amount">
+            R56,503
+          </div>
+          <div class="savings-label">
+            Saved vs. ongoing tutoring
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: 24px; color: var(--text-light);">Plus: No more homework battles, confident child, better family harmony</p>
+      </div>
+    </div>
+  </section>
+  <section class="video-testimonials" id="video-testimonials">
+    <div class="container">
+      <h2 class="video-headline">Video Testimonials</h2>
+      <p class="video-sub">Hear from <strong>Parents</strong>, <strong>Educators</strong> and <strong>Students</strong> - in their own words.</p>
+      <div class="video-stage" aria-live="polite">
+        <div class="video-rail" id="videoRail">
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/6895c89ee6672f6c114fa143.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+          <div class="video-card" data-role="Parent">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68c142b36880bfcdfdb87f8a.mp4"></video> <span class="video-tag">Parent</span>
+          </div>
+          <div class="video-card" data-role="Educator">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68c1415dc3c03f6d2f29a77f.mp4"></video> <span class="video-tag">Educator</span>
+          </div>
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/689714b904e899c24636c40f.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/689714b98f2573408d30c8e8.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/689364ee5b9f8719e3918e7e.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+          <div class="video-card" data-role="Educator">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/68f0cf728065a61514c18a06.mp4"></video> <span class="video-tag">Educator</span>
+          </div>
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/689364ee5b9f8719e3918e7e.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+          <div class="video-card" data-role="Student">
+            <video preload="metadata" muted playsinline poster="" src="https://storage.googleapis.com/msgsndr/hQYrxDIzecXVrMojxOEE/media/689364eebe396c9e861284f4.mp4"></video> <span class="video-tag">Student</span>
+          </div>
+        </div>
+      </div>
+      <div class="video-tag-spacer" aria-hidden="true"></div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: linear-gradient(135deg, var(--navy), var(--navy-dark)); color: white;">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--gold); margin-bottom: 12px;">Our Iron-Clad 30-Day Money-Back Guarantee</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--cream);">
+        <p><strong>If your child attends the full workshop, applies the methods, and doesn't see measurable improvement in study efficiency and results within 30 days, we'll refund every Rand.</strong></p>
+        <p>No questions asked. No hassle. No hard feelings. We can make this promise because for 25 years and 28,000+ students, these methods work.</p>
+        <p>We've seen struggling students become top performers, families go from daily homework battles to peaceful routines, and children who thought they were "stupid" realize they're brilliant.</p>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: white;">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 16px;">"But What If..."</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--text-light);">
+        <p><strong>“My child won't want to give up their weekend.”</strong><br>
+        One weekend saves hundreds of hours of frustration. Our workshops are engaging-students enjoy them far more than expected.</p>
+        <p><strong>“We've tried everything. What makes this different?”</strong><br>
+        Tutoring teaches <em>what</em> to learn; we teach <em>how</em> to learn-the meta-skill that makes everything else easier.</p>
+        <p><strong>“R3,497 is a lot of money.”</strong><br>
+        It's less than six months of tutoring. With our guarantee, you're risking nothing.</p>
+        <p><strong>“My child is too young/too old.”</strong><br>
+        Designed for ages 13–19, but effective beyond. Ask us if you're unsure.</p>
+        <p><strong>“What if it doesn't work for my child?”</strong><br>
+        Then you get your money back. The psychology is sound; results speak for themselves.</p>
+      </div>
+    </div>
+  </section>
+  <section class="faq-section">
+    <div class="container">
+      <h2 style="text-align: center; color: var(--navy); margin-bottom: 60px;">Your Questions Answered</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What age is this workshop suitable for?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>The workshop is designed for students aged 13–19 (roughly grades 7–12). The methods work for all ages, but this range sees the most immediate benefit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>My child has ADHD/dyslexia. Will this work for them?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Absolutely! I have ADHD myself and built the program to work <em>with</em> neurodivergent brains, not against them. Many of our biggest wins come from students with learning differences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How is this different from tutoring?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Tutoring teaches your child <em>what</em> to learn (subject content). We teach them <em>how</em> to learn (skills that apply to any subject). Tutoring is temporary; study skills are permanent.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is this online or in-person?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Our sessions are over live zoom class. An interactive online workshop designed to deliver the same powerful results.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How long does the workshop take?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>The core workshop runs over two days (typically a weekend). Your child leaves with all the tools they need-and access to ongoing community support.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Will my child actually use these methods after the workshop?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We make it easy: the methods are <em>easier</em> than traditional studying, so students naturally prefer them. Once they see better results with less effort, motivation takes care of itself.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What if my child is already doing well academically?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>High performers benefit too: same or better results in less time, reduced stress, and durable skills for university and beyond.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Do you offer payment plans?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>Yes-flexible payment options are available. <a href="mailto:info@easycheetah.com?subject=Payment%20Plan%20Inquiry">Contact us</a> to find what works for your family.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What's your refund policy?</span>
+            <div class="faq-icon">
+              +
+            </div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>We offer a 30-day money-back guarantee. If your child completes the workshop, applies the methods, and doesn't see improvement, we'll refund your investment in full.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 90px 0; background: var(--light-gray);">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 12px;">Every Day You Wait Is Another Day of Struggle</h2>
+      <div style="max-width: 900px; margin: 0 auto; color: var(--text-light);">
+        <p>Right now, your child may be studying the hard way-spending hours for minimal results while confidence erodes. Each day of delay means homework battles, wasted time, and missed potential.</p>
+        <p><strong>It doesn't have to be this way.</strong> One weekend gives them the tools to transform their academic life. Our next workshop has limited seats to ensure personal attention.</p>
+      </div>
+      <div style="text-align:center; margin-top: 24px;">
+        <a href="inboundredirect.easycheetah.com" class="cta-button" style="animation:none; opacity:1;">Secure My Child's Spot Now</a>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 100px 0; background: var(--cream);">
+    <div class="container">
+      <h2 style="text-align:center; color: var(--navy); margin-bottom: 16px;">Real Students. Real Results. Real Transformation.</h2>
+      <div class="benefits-grid" style="padding-top: 20px;">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            📈
+          </div>
+          <h3>Dan's Story</h3>
+          <p>English jumped from <strong>66% → 92%</strong>; Math from <strong>74% → 91%</strong>. Confidence transformed.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            👩‍👧‍👦
+          </div>
+          <h3>The Working Mother</h3>
+          <p>One week to prep a critical exam-achieved <strong>97%</strong> while managing work and family.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🌐
+          </div>
+          <h3>IB Top Results</h3>
+          <p>Student achieved the <strong>highest IB results in their country's history</strong> by studying smarter.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            🏅
+          </div>
+          <h3>Jumped 32 Places</h3>
+          <p>From 40th to 8th in grade-in a single term.</p>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top: 10px;">
+        <a href="inboundredirect.easycheetah.com" class="cta-button" style="animation: none; opacity: 1;">Get These Results for My Child</a>
+      </div>
+    </div>
+  </section>
+  <section style="background: linear-gradient(135deg, var(--navy), var(--navy-dark)); color: white; padding: 100px 0; text-align: center;">
+    <div class="container">
+      <h2 style="color: var(--gold); margin-bottom: 30px; line-height: 1.3;">Will You Give Your Child the Gift of Confident, Effortless Learning?</h2>
+      <p style="font-size: 20px; margin-bottom: 16px; color: var(--cream); max-width: 800px; margin-left: auto; margin-right: auto;">Imagine this: six months from now your child studies calmly, finishes homework in half the time, and brings home the grades you always knew were possible.</p>
+      <p style="font-size: 18px; margin-bottom: 32px; color: var(--cream);"><strong>That future is possible.</strong> It starts with one decision. One weekend. One investment in your child's potential.</p><a href="inboundredirect.easycheetah.com" class="cta-button" style="display: inline-block; padding: 25px 60px; font-size: 20px;">Yes! Transform My Child's Learning Now</a>
+      <div style="margin-top: 40px; font-size: 16px; color: var(--cream); max-width: 900px; margin-left:auto; margin-right:auto;">
+        <p><strong>P.S.</strong> Remember Dan? His English went from 66% to 92% and Math from 74% to 91%. That happened because his parents invested in teaching him <em>how</em> to learn.</p>
+        <p><strong>P.P.S.</strong> With our 30-day money-back guarantee, you're risking absolutely nothing. If this doesn't work for your child, you get a full refund.</p>
+        <p><strong>P.P.P.S.</strong> Our next workshop is filling up quickly. Don't wait and watch another term slip by. <a href="inboundredirect.easycheetah.com" style="color: var(--gold); font-weight: 600;">Secure their spot now.</a></p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Easy Cheetah</h3>
+          <p>Transform your child's learning in one weekend</p>
+          <p>Trusted by 28,000+ students</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: info@easycheetah.com</p>
+          <p>Phone: +27 (72) 858-6746</p>
+        </div>
+        <div class="footer-section">
+          <h3>Featured On</h3>
+          <ul>
+            <li>BBC</li>
+            <li>Radio 702</li>
+            <li>Cape Talk</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Easy Cheetah. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+  /* Existing FAQ + reveal animations */
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+    const icon = item.querySelector('.faq-icon');
+    question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(faq => { 
+            faq.classList.remove('active'); 
+            faq.querySelector('.faq-answer').style.maxHeight = '0'; 
+            faq.querySelector('.faq-icon').style.transform = 'rotate(0)'; 
+        });
+        if (!isActive) { 
+            item.classList.add('active'); 
+            answer.style.maxHeight = answer.scrollHeight + 'px'; 
+            icon.style.transform = 'rotate(45deg)'; 
+        }
+    });
+  });
+
+  const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -100px 0px' };
+  const observer = new IntersectionObserver((entries) => { 
+    entries.forEach(entry => { 
+        if (entry.isIntersecting) { 
+            entry.target.style.opacity = '1'; 
+            entry.target.style.transform = 'translateY(0)'; 
+        } 
+    }); 
+  }, observerOptions);
+
+  document.querySelectorAll('.stat-card, .benefit-card, .timeline-item').forEach(el => { 
+    el.style.opacity = '0'; 
+    el.style.transform = 'translateY(30px)'; 
+    el.style.transition = 'all 0.8s ease'; 
+    observer.observe(el); 
+  });
+
+
+
+  /* =========================
+   NEW: Video Carousel Logic
+   ========================= */
+  (function(){
+    const rail = document.getElementById('videoRail');
+    if (!rail) return;
+    const cards = Array.from(rail.querySelectorAll('.video-card'));
+    const videos = cards.map(c => c.querySelector('video'));
+    let active = 0;
+    let cycling = true;
+    const INTERVAL_MS = 8000;
+    let timer = null;
+
+    function applyClasses() {
+        cards.forEach((card, i) => {
+            card.classList.remove('is-center','is-left','is-right','is-hidden','is-playing');
+            card.style.setProperty('--scale','.88');
+            const leftIndex = (active - 1 + cards.length) % cards.length;
+            const rightIndex = (active + 1) % cards.length;
+
+            if (i === active) {
+                card.classList.add('is-center');
+                card.style.setProperty('--scale','1');
+            } else if (i === leftIndex) {
+                card.classList.add('is-left');
+            } else if (i === rightIndex) {
+                card.classList.add('is-right');
+            } else {
+                card.classList.add('is-hidden');
+            }
+        });
+
+        videos.forEach((v, i) => {
+            v.pause();
+            v.controls = false;
+            v.muted = true;
+        });
+    }
+
+    function next() { active = (active + 1) % cards.length; applyClasses(); }
+    function startCycle() {
+        clearInterval(timer);
+        timer = setInterval(() => { if (cycling) next(); }, INTERVAL_MS);
+    }
+
+    function stopCycle() {
+        cycling = false;
+        clearInterval(timer);
+    }
+
+    cards.forEach((card, idx) => {
+        card.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (idx !== active) {
+                active = idx;
+                applyClasses();
+            } else {
+                const video = videos[idx];
+                stopCycle();
+                card.classList.add('is-playing');
+                video.controls = true;
+                video.muted = false;
+                video.play().catch(()=>{});
+            }
+        });
+    });
+
+    videos.forEach(v => {
+        v.addEventListener('play', stopCycle);
+        v.addEventListener('seeking', stopCycle);
+    });
+
+    applyClasses();
+    startCycle();
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') { cycling = false; next(); }
+        if (e.key === 'ArrowLeft')  { cycling = false; active = (active - 1 + cards.length) % cards.length; applyClasses(); }
+    });
+  })();
+  </script> 
+  <script>
+
+
+  (function () {
+  function initAutoScrollFor(section) {
+    const track = section.querySelector('.testimonial-track');
+    if (!track || track.dataset.autoscrollInit === 'true') return;
+    track.dataset.autoscrollInit = 'true';
+
+    // Respect accessibility
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    // Duplicate once for seamless loop
+    if (!track.dataset.cloned) {
+      const originals = Array.from(track.children);
+      originals.forEach(n => track.appendChild(n.cloneNode(true)));
+      track.dataset.cloned = 'true';
+    }
+
+    let isPaused = false;
+    let rafId = null;
+    const SPEED = 0.7; // px per frame (~60fps). Adjust 0.5–1.2 to taste.
+
+    function step() {
+      if (!isPaused) {
+        const half = track.scrollWidth / 2;
+        // Use modulo so we never "stick" near the seam
+        track.scrollLeft = (track.scrollLeft + SPEED) % half;
+      }
+      rafId = requestAnimationFrame(step);
+    }
+
+    // Pause on interaction
+    const pause = () => { isPaused = true; };
+    const resume = () => { isPaused = false; };
+    ['mouseenter','focusin','pointerdown','touchstart'].forEach(evt =>
+      track.addEventListener(evt, pause, { passive: true })
+    );
+    ['mouseleave','focusout','pointerup','touchend','touchcancel'].forEach(evt =>
+      track.addEventListener(evt, resume, { passive: true })
+    );
+
+    // If user manually scrolls, pause then resume after 2s
+    let scrollTO;
+    track.addEventListener('scroll', () => {
+      pause();
+      clearTimeout(scrollTO);
+      scrollTO = setTimeout(resume, 2000);
+    }, { passive: true });
+
+    // Only animate when visible (perf)
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          resume();
+          if (!rafId) rafId = requestAnimationFrame(step);
+        } else {
+          pause();
+        }
+      });
+    }, { threshold: 0.1 });
+    io.observe(section);
+
+    // Safety: cancel on unload
+    window.addEventListener('beforeunload', () => cancelAnimationFrame(rafId));
+  }
+
+  function initAll() {
+    document.querySelectorAll('.testimonial-carousel').forEach(initAutoScrollFor);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAll);
+  } else {
+    initAll();
+  }
+  })();
+  </script> 
+    
+<script>
+  document.getElementById('cta').addEventListener('click', function (e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (!target) return;                 // no target, let default happen
+    e.preventDefault();                  // stop the hash jump
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // remove the hash from the URL after scrolling
+    history.replaceState(null, '', location.pathname + location.search);
+  });
+</script>
+</body>
+</html>
